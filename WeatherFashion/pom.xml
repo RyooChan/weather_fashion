@@ -52,7 +52,7 @@
 			<version>${org.slf4j-version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${org.slf4j-version}</version>
@@ -81,7 +81,7 @@
 				</exclusion>
 			</exclusions>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 
 		<!-- @Inject -->
 		<dependency>
@@ -166,11 +166,11 @@
 		</dependency>
 		
 		<!-- 이부분은 mysql database 부분 로그에 정보를 보기 위해 maven 추가 -->
-		 <dependency>
+<!-- 		 <dependency>
             <groupId>org.bgee.log4jdbc-log4j2</groupId>
             <artifactId>log4jdbc-log4j2-jdbc4</artifactId>
             <version>1.16</version>
-        </dependency>
+        </dependency> -->
         
         		<!-- gson -->
 	<dependency>
